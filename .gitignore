@@ -1,0 +1,6 @@
+.idea
+.venv
+.vscode
+.DS_Store
+__pycache__
+sample

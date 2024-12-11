@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "env-fit"
+version = "0.1.0"
+description = "Extract upper convex hull from CSV 2D data"
+authors = ["Guy Wiener <wiener.guy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+scipy = "^1.14.1"
+streamlit = "^1.41.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
